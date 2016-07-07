@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>宜诺培训</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/elastislide.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<header class="navbar navbar-static-top main-nav" data-spy="affix" data-offset-top="50" id="top" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar"
+                    aria-controls="bs-navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand"></a>
+        </div>
+        <nav id="bs-navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="investment-add"></a>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li id="loggedInContainer"></li>
+            </ul>
+            <form class="navbar-form navbar-right" style="display: none" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="搜索...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                </div>
+            </form>
+        </nav>
+    </div>
+</header>
+
+<div>
+    <div id="homeInitialCarousel" class="carousel slide home-initial-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#homeInitialCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#homeInitialCarousel" data-slide-to="1"></li>
+            <li data-target="#homeInitialCarousel" data-slide-to="2"></li>
+            <li data-target="#homeInitialCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item slide1 active">
+                <img src="/img/home-slider/slide1.png" class="img-responsive home-slider-slide-one"
+                     alt="web design dubai">
+
+                <div class="carousel-caption">
+                    <h3>宜诺培训</h3>
+                </div>
+            </div>
+
+            <div class="item slide2">
+                <img src="/img/home-slider/header-social-media.png" class="img-responsive home-slider-slide-two"
+                     alt="social media marketing dubai">
+
+                <div class="carousel-caption">
+                    <h3>这里是大标题</h3>
+                    <span>这里是小标题</span>
+                </div>
+            </div>
+
+
+            <div class="item slide3">
+                <img src="/img/home-slider/slide3.png" class="img-responsive home-slider-slide-three"
+                     alt="responsive website dubai">
+
+                <div class="carousel-caption">
+                    <h3>宜诺培训</h3>
+                </div>
+            </div>
+
+
+            <div class="item slide4">
+                <img src="/img/home-slider/slide4.png" class="img-responsive home-slider-slide-four"
+                     alt="advertising agency dubai">
+
+                <div class="carousel-caption">
+                    <h3>宜诺培训</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row category-bar">
+        <div class="pull-left">
+            <button type="button" class="btn btn-default btn-sm category active" id="category0">
+                <span class="glyphicon glyphicon-th" aria-hidden="true"></span> 全部
+            </button>
+            <button type="button" class="btn btn-default btn-sm category" id="category1">
+                <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> 产品推广
+            </button>
+            <button type="button" class="btn btn-default btn-sm category" id="category2">
+                <span class="glyphicon glyphicon-knight" aria-hidden="true"></span> 赛事举办
+            </button>
+            <button type="button" class="btn btn-default btn-sm category" id="category3">
+                <span class="glyphicon glyphicon-education" aria-hidden="true"></span> 晚会讲座
+            </button>
+            <button type="button" class="btn btn-default btn-sm category" id="category4">
+                <span class="glyphicon glyphicon-music" aria-hidden="true"></span> 路演促销
+            </button>
+            <button type="button" class="btn btn-default btn-sm category" id="category5">
+                <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> 联谊赞助
+            </button>
+            <button type="button" class="btn btn-default btn-sm category" id="category6">
+                <span class="glyphicon glyphicon-send" aria-hidden="true"></span> 户外活动
+            </button>
+            <button type="button" class="btn btn-default btn-sm category" id="category7">
+                <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> 人员招募
+            </button>
+            <button type="button" class="btn btn-default btn-sm category" id="category8">
+                <span class="glyphicon glyphicon-book" aria-hidden="true"></span> 校园创业
+            </button>
+        </div>
+        <div class="pull-right">
+            <label>状态:</label>
+
+            <div class="btn-group" id="itemStatus">
+                <button type="button" class="btn btn-default dropdown-toggle btn-sm" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    众筹中
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="javascript:void(0);" class="status active" id="status0">众筹中</a>
+                    <li><a href="javascript:void(0);" class="status" id="status1">众筹成功</a>
+                </ul>
+            </div>
+
+            <label>排序:</label>
+
+            <div class="btn-group" id="itemSort">
+                <button type="button" class="btn btn-default dropdown-toggle btn-sm" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    最新上线
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="javascript:void(0);" class="sort active" id="sort0">最新上线</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="kickStarterBox" class="row item-list">
+        <div v-repeat="kickStarter in results" class="col-lg-3 col-md-3">
+            <div class="thumbnail infos">
+                <img src="{{apiServer}}/api/material/kick-starters/download/#{kickStarter.thumbnail}/thumb/280/255"
+                     class="img-responsive" alt="众筹">
+
+                <div class="i-tits mb10">
+                    <a href="/kick-starter/#{kickStarter.id}">
+                        <h4 class="link-tit mt5">#{kickStarter.title}</h4>
+                    </a>
+
+                    <p class="b-tit">
+                        <span><i class="glyphicon glyphicon-tags"></i>#{kickStarter.categoryName}</span>
+                    </p>
+                </div>
+                <div class="i-descr">
+                    <p class="text"><a href="">#{kickStarter.intro}</a>
+                    </p>
+                </div>
+                <div class="p-outter">
+                    <div class="p-bar">
+                        <span class="p-b-slide" style="width:#{kickStarter.percentageComplete}%;"></span>
+                    </div>
+                    <div class="p-items">
+                        <ul class="p-i-infos">
+                            <li class="fore1">
+                                <p class="p-percent">#{kickStarter.percentageComplete}%</p>
+
+                                <p class="p-extra">已达</p>
+                                <span class="v-line"></span>
+                            </li>
+                            <li class="fore2">
+                                <p class="p-percent">￥#{kickStarter.collected}</p>
+
+                                <p class="p-extra">已筹</p>
+                                <span class="v-line"></span>
+                            </li>
+                            <li class="fore3">
+                                <p class="p-percent">#{kickStarter.daysRemaining}天</p>
+
+                                <p class="p-extra">剩余时间</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="show_more_text" class="text-center"></div>
+    <div class="container-fluid text-center" id="loading_gif">
+        <img src="/img/spinner.gif" width="60px" height="60px"/>
+    </div>
+
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+
+    </div>
+    <div class="copyright-wrap">
+        <div class="container copyright">
+            <div class="pull-right">宜诺培训</div>
+            <div class="pull-left">&copy; 2016 深圳宜诺科技有限责任公司</div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="/js/jquery-2.1.4.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/jquery.elastislide.js"></script>
+<script src="/js/jquery.jscroll.min.js"></script>
+<script src="/js/vue.min.js"></script>
+<script src="/apps/config.js"></script>
+<script src="/js/home.js"></script>
+
+<script>
+    $(function () {
+
+        {% if data.principal %}
+            sessionStorage.setItem("uid", "{{data.principal.uid}}");
+            sessionStorage.setItem("token", "{{data.principal.token}}");
+            sessionStorage.setItem("avatar", "{{data.avatar}}");
+        {% endif %}
+
+        if (sessionStorage.getItem("token") && sessionStorage.getItem("avatar")) {
+            $('#loggedInContainer').empty();
+            $('#loggedInContainer').append('<a href="javascript:void(0)" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="avatarWrap"><img src="' + sessionStorage.getItem("avatar") + '" alt="avatar" width="32" height="32"> <span class="caret"></span></a><ul class="dropdown-menu"><li><a id="logout" href="javascript:void(0)">退出</a></li></ul>');
+        } else {
+            $('#loggedInContainer').empty();
+            $('#loggedInContainer').append('<a href="/sign-in">登录 / 注册</a>');
+        }
+
+        var pageSize = 8;
+
+        $("#loading_gif").hide();
+        $("#show_more_text").hide();
+
+        Vue.config.delimiters = ['#{', '}'];
+
+        var kickStarters = new Vue({
+            el: '#kickStarterBox',
+            data: {
+                total: 0,
+                curPage: 1,
+                loading: false,
+                category: 0,
+                status: 0,
+                sort: 0,
+                results: []
+            }
+        });
+
+        var loadKickStarters = function (data) {
+            var criteria;
+            if (data) {
+                criteria = {
+                    "category": data.category ? data.category : kickStarters.category,
+                    "status": data.status ? data.status : kickStarters.status,
+                    "sort": data.sort ? data.sort : kickStarters.sort,
+                    "page": data.page ? data.page : kickStarters.curPage,
+                    "size": pageSize
+                };
+            } else {
+                criteria = {
+                    "category": kickStarters.category,
+                    "status": kickStarters.status,
+                    "sort": kickStarters.sort,
+                    "page": kickStarters.curPage,
+                    "size": pageSize
+                };
+            }
+
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                url: '{{apiServer}}/api/kick-starters/search',
+                data: JSON.stringify(criteria),
+                cache: false,
+                beforeSend: function () {
+                    $("#loading_gif").show();
+                    kickStarters.loading = true;
+                    kickStarters.category = criteria.category;
+                    kickStarters.status = criteria.status;
+                    kickStarters.sort = criteria.sort;
+                },
+                success: function (data) {
+                    kickStarters.total = data.total;
+
+                    if (criteria.page < kickStarters.curPage) {
+                        kickStarters.results = [];
+                    }
+
+                    // if data is not empty
+                    if (data.results.length > 0) {
+                        kickStarters.results = kickStarters.results.concat(data.results);
+                        kickStarters.curPage = kickStarters.curPage + 1;
+                        $("#show_more_text").hide();
+                    } else {
+                        $("#show_more_text").hide();
+                    }
+                    $("#loading_gif").hide();
+                },
+                error: function (xhr, status, err) {
+                    $("#loading_gif").hide();
+                },
+                complete: function (xhr) {
+                    kickStarters.loading = false;
+                    $("#loading_gif").hide();
+                }
+            });
+        };
+
+        loadKickStarters();
+
+        var getDocHeight = function () {
+            var D = document;
+            return Math.max(
+                    D.body.scrollHeight, D.documentElement.scrollHeight,
+                    D.body.offsetHeight, D.documentElement.offsetHeight,
+                    D.body.clientHeight, D.documentElement.clientHeight
+            );
+        };
+
+        $(window).scroll(function () {
+            var h = $(window).scrollTop() + $(window).height();
+            var docHeight = getDocHeight();
+            if (h > docHeight - 500 && h < docHeight - 300) {
+                loadKickStarters();
+            }
+        });
+
+
+        $("button.category").click(function (e) {
+            var categoryId = this.id.substring('category'.length);
+
+            if (categoryId == null || categoryId == '') {
+                return;
+            }
+
+            $("button.category.active").removeClass("active");
+
+            $("#" + this.id).addClass("active");
+
+            var data = {
+                category: categoryId,
+                page: 1,
+                status: 0,
+                sort: 0
+            };
+
+            loadKickStarters(data);
+        });
+
+        $("a.status").click(function (e) {
+            var status = this.id.substring('status'.length);
+
+            if (status == null || status == '') {
+                return;
+            }
+
+            $("a.status.active").removeClass("active");
+
+            $("#" + this.id).addClass("active");
+
+            var data = {
+                page: 1,
+                status: status
+            };
+
+            loadKickStarters(data);
+        });
+
+        $("a.sort").click(function (e) {
+            var sort = this.id.substring('sort'.length);
+
+            if (sort == null || sort == '') {
+                return;
+            }
+
+            $("a.sort.active").removeClass("active");
+
+            $("#" + this.id).addClass("active");
+
+            var data = {
+                page: 1,
+                sort: sort
+            };
+
+            loadKickStarters(data);
+        });
+
+        var setHeader = function (xhr) {
+            var token = sessionStorage.getItem("token");
+            xhr.setRequestHeader('Authorization', 'Bearer ' + token);
+        };
+
+        $("#logout").click(function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                url: '{{apiServer}}/api/auth/sign-out',
+                cache: false,
+                beforeSend: function (xhr) {
+                    setHeader(xhr);
+                },
+                success: function (data) {
+                    sessionStorage.removeItem("uid");
+                    sessionStorage.removeItem("token");
+                    window.location.replace("/");
+                },
+                error: function (xhr, status, err) {
+                    alert('登出错误');
+                }
+            });
+        });
+
+        $('#itemStatus .dropdown-toggle').html($('#itemStatus a.active').text() + ' <span class="caret"></span>');
+
+        $('#itemStatus .dropdown-menu li').on('click', function () {
+            $('#itemStatus .dropdown-toggle').html($('#itemStatus a.active').text() + ' <span class="caret"></span>');
+        });
+        $('#itemSort .dropdown-toggle').html($('#itemSort a.active').text() + ' <span class="caret"></span>');
+        $('#itemSort .dropdown-menu li').on('click', function () {
+            $('#itemSort .dropdown-toggle').html($('#itemSort a.active').text() + ' <span class="caret"></span>');
+        });
+
+        $('#sponsor-slider').elastislide({
+            minItems: 2
+        });
+    });
+</script>
+
+</html>

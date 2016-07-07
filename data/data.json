@@ -1,0 +1,31 @@
+{
+  "total": 2,
+  "results": [
+    {
+      "id": 78,
+      "status": 0,
+      "title": "三亚理工校园迷你马拉松",
+      "thumbnail": 1109,
+      "categoryId": 2,
+      "categoryName": "赛事举办",
+      "intro": "<p><strong><span style=\"font-size:21px;font-family: 楷体_GB2312\">赛事概况</span></strong></p><p style=\"text-indent: 37px\"><span style=\"font-size:19px;font-family:仿宋\">赛事主题：我运动，我健康，我快乐 </span></p><p style=\"text-indent: 37px\"><span style=\"font-size:19px;font-family:仿宋\">竞赛日期：2016年10月15日</span></p><p style=\"text-indent: 37px\"><span style=\"font-size:19px;font-family:仿宋\">竞赛地点：三亚理工职业学院，三亚学院</span></p><p style=\"text-indent: 37px\"><span style=\"font-size:19px;font-family:仿宋\">赛事形象大使：</span></p><p style=\"text-indent: 37px\"><span style=\"font-size:19px;font-family:仿宋\">比赛组别：校园迷你马拉松（5公里）1200人，学生组1000人（三亚理工600人、三亚学院400人），教职工组200人。</span></p>",
+      "targetAmt": 20000.0,
+      "percentageComplete": 0,
+      "collected": 0,
+      "daysRemaining": 55
+    },
+    {
+      "id": 59,
+      "status": 0,
+      "title": "两元爱心，需要您的赞助！",
+      "thumbnail": 968,
+      "categoryId": 6,
+      "categoryName": "户外活动",
+      "intro": "<p>蚂蚁助学计划第二次出征志愿需要赞助！</p>",
+      "targetAmt": 30000.0,
+      "percentageComplete": 0,
+      "collected": 0,
+      "daysRemaining": 55
+    }
+  ]
+}
